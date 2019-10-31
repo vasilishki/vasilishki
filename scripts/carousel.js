@@ -49,7 +49,7 @@ document.body.addEventListener('click', function (e) {
         block.classList.add('imgblock');
         block.append(clone);
         clone.license = document.createElement('div');
-        clone.license.innerHTML = e.target.alt;
+        clone.license.innerHTML = e.target.title;
         clone.after(clone.license);
         clone.license.classList.add('license');
         let closeX = document.createElement('div');

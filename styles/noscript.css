@@ -1,0 +1,17 @@
+
+.menu > li:hover .sub-menu {
+    display: block;
+}
+
+.arrow {
+    display: none;
+}
+
+.gallery {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.navigation {
+    display: none;
+}

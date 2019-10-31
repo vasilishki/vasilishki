@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">               
+        <title>Расписание транспорта</title>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+        <link rel="stylesheet" href="styles/style.css" type="text/css"/>
+        <link rel="stylesheet" href="styles/media.css" type="text/css"/>  
+        <script defer src="specver/js/jquery-2.2.3.min.js"></script>
+        <script defer src="specver/js/jquery.cookie.js"></script>
+        <script defer src="specver/js/specver.js"></script>
+        <script defer src="scripts/script.js"></script>
+        <noscript><link rel="stylesheet" href="styles/noscript.css" type="text/css"/></noscript>
+    </head>	
+    <body>
+        <div class="wrapper">                
+            <header>
+                <div class="tittle">Информационный портал а.г.&nbsp;Василишки</div>
+                <div class="header-links">
+                    <div class="language"><a href="index.html">РУС</a> | <a href="inprogress.html">БЕЛ</a></div>
+                    <button class="blind spec"><img src="images/eye.png" alt=""/>Версия для слабовидящих</button>
+                </div>
+            </header>
+            <div class="nav-bar">
+                <ul class="menu">
+                    <li><a href="index.html"><div>Главная</div></a></li>
+                    <li><span>Учреждения и&nbsp;организации</span>
+                        <ul class="sub-menu">
+                            <li><a href="oao.html">ОАО "Василишки"</a></li>
+                            <li><a href="domkult.html">Дом культуры</a></li>
+                            <li><a href="post.html">Почтовое отделение</a></li>
+                            <li><a href="church.html">Костёл</a></li>
+                            <li><a href="school.html">Школа</a></li>
+                            <li><a href="kindegarten.html">Детский сад</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="schedule.html"><div>Расписание транспорта</div></a></li>
+                    <li><a href="announcments.html"><div>Объявления</div></a></li>
+                    <li><a href="about.html"><div>О сайте</div></a></li>
+                </ul>
+                <form name="search" action="#" method="GET" class="search-form">
+                    <input type="text" value="" name="s" placeholder="Поиск..." class="search-text">
+                </form>
+            </div>
+            <div class="navigation"><a href="#"><img src="images/back.png" alt="Назад" title="Назад" /></a><a href="#"></a></div>
+            <div class="content">
+                <div class="grid-row">
+                    <div class="grid-item-left" style="overflow-x: auto; overflow-y: hidden;">                            
+                        <h2>Расписание транспорта</h2>                            
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Автобусы</th>
+                                    <th>Отправление</th>
+                                    <th>Прибытие</th>
+                                    <th>Отправление обратно</th>
+                                    <th>Прибытие в Василишки</th>
+                                    <th>Дни курсирования</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>ГРОДНО АВ - ЛИДА АВ</td><td>9:53</td><td>10:34</td><td>11:15</td><td>11:52</td><td>сб, вс</td></tr>
+                                <tr><td>ГРОДНО АВ - ЛИДА АВ</td><td>16:58</td><td>17:39</td><td>-</td><td>-</td><td>пт</td></tr>
+                                <tr><td>ГРОДНО АВ - ЛИДА АВ</td><td>18:27</td><td>19:08</td><td>-</td><td>-</td><td>вс</td></tr>
+                                <tr><td>ЛИДА АВ - ГРОДНО АВ</td><td>12:02</td><td>13:14</td><td>-</td><td>-</td><td>сб, вс</td></tr>
+                                <tr><td>ЛИДА АВ - ГРОДНО АВ</td><td>19:19</td><td>20:29</td><td>-</td><td>-</td><td>пт, сб</td></tr>
+                                <tr><td>ЛИДА АВ - ГРОДНО АВ</td><td>20:22</td><td>21:34</td><td>-</td><td>-</td><td>вс</td></tr>
+                                <tr><td>ЩУЧИН АС — ПЕТЮЛЕВЦЫ ПЗ</td><td>17:09</td><td>17:55</td><td>-</td><td>-</td><td>пт, сб</td></tr>
+                                <tr><td>ЩУЧИН АС — ПЕТЮЛЕВЦЫ ПЗ</td><td>6:45</td><td>7:31</td><td>-</td><td>-</td><td>пт, сб</td></tr>
+                                <tr><td>ЩУЧИН АС — ВОЙЩУКИ</td><td>8:30</td><td>8:40</td><td>-</td><td>-</td><td>вс</td></tr>
+                                <tr><td>ЩУЧИН АС — ВОЙЩУКИ</td><td>16:38</td><td>16:56</td><td>-</td><td>-</td><td>вс</td></tr>
+                                <tr><td>ЩУЧИН АС - БАКШТЫ</td><td>14:03</td><td>14:33</td><td>-</td><td>-</td><td>пн, ср, вс</td></tr>
+                            </tbody>
+                        </table>    
+                    </div>
+                    <div class="grid-item-right weather">
+                        <a target="_blank" href="https://nochi.com/weather/vasilishki-w191070"><img src="https://w.bookcdn.com/weather/picture/32_w191070_1_20_e67e22_250_d35401_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=2&domid=589&anc_id=2123"  alt="booked.net"/></a>
+
+                    </div>                    
+                </div>
+                <div class="grid-row row-two">
+                    <div class="grid-item-left">                                             
+                    </div>
+                    <div class="grid-item-right">
+                        <h2>Ссылки</h2>                           
+                        <div class="links">
+                            <div class="column">
+                                <a href="http://vasilishki.by" rel="nofollow"><img src="images/oao.png" alt="ОАО Василишки" title="ОАО Василишки" /><span class="texthide">ОАО Василишки</span></a>
+                                <a href="http://schuchin.grodno-region.by" rel="nofollow"><img src="images/schuchin.png" alt="Щучинский райисполком" title="Щучинский райисполком" /><span class="texthide">Щучинский райисполком</span></a>
+                            </div>
+                            <div class="column">
+                                <a href="http://pravo.by" rel="nofollow"><img src="images/pravoby.png" alt="pravo.by" title="pravo.by" /><span class="texthide">Pravo.by</span></a>
+                                <a href="https://portal.gov.by" rel="nofollow"><img src="images/peu.png" alt="Портал электронных услуг" title="Портал электронных услуг" /><span class="texthide">Портал электронных услуг</span></a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <a href="mailto:ya.vadik3@yandex.ru?subject=Вопрос_по_сайту"><div class="feedback"></div><span>Связь с администрацией сайта</span></a>
+                <a href="sitemap.html"><span>Карта сайта</span><div class="sitemap"></div></a>
+            </footer>
+            <div class="copyright">&copy; Vadim Sidorov 2019</div>
+
+        </div>            
+    </body>
+</html> 

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://vasilishki.github.io/index.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://vasilishki.github.io/oao.html</loc>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vasilishki.github.io/domkult.html</loc>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vasilishki.github.io/post.html</loc>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vasilishki.github.io/church.html</loc>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vasilishki.github.io/school.html</loc>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vasilishki.github.io/kindegarten.html</loc>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vasilishki.github.io/schedule.html</loc>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vasilishki.github.io/announcments.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vasilishki.github.io/about.html</loc>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vasilishki.github.io/sitemap.html</loc>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

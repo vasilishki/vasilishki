@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vasilishki.github.io/sitemap.xml

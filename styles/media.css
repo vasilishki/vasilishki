@@ -1,0 +1,345 @@
+
+/*Экстра большие девайсы (большие десктопы, >= 1200px)*/
+@media (min-width: 1200px) {
+
+}
+
+/*Большие девайсы (большие десктопы, >= 992px)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .gallery li {
+        width: 170px;
+        height: 145px;
+    }
+
+}
+
+/*Средние девайсы («таблетки», >= 650px)*/
+@media (min-width: 649.8px) and (max-width: 991.98px) {
+
+    .tittle {
+	font-size: 1.675rem;
+	padding-left: 45px;
+}
+
+    .nav-bar {
+        flex-wrap: wrap;    
+    }
+
+    .menu {
+        width: 100%;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+    }
+
+    .menu li {
+        width: 20%;
+    }
+
+    .search-form {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+    /*Контент в одну колонку*/
+
+
+    .grid-row {
+        flex-direction: column;
+    }
+    
+    
+    .grid-item-right,
+    .grid-item-left {
+        flex-basis: auto;
+        padding: 15px 20px;
+        margin: 0;
+    }
+
+    .row-two {
+        padding: 0;    
+    }
+    /*Значки блока ссылок по центру*/
+     .grid-item-right p {
+        justify-content: space-between;
+    }
+
+    /*Отключаем карусель*/
+
+    .carousel .arrow {
+        display: none;
+    }
+
+    .gallery {
+        overflow: visible;
+        background: none;       
+    }
+
+    .carousel {
+        padding: 0;
+        padding-top: 15px;   
+    }
+
+    .gallery ul {	
+        height: auto;    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: center;
+        width: 100%;        
+    }
+
+    .gallery li {
+        width: 25%;
+        height: auto;
+        margin-right: 15px;	
+    }
+
+    .gallery li:first-child {
+        margin-left: 0;   
+    }
+
+    .gallery li:last-child {
+        margin-right: 15px;   
+    }
+ 
+.links a img {
+    padding: 10px;
+}
+
+.links a img {
+    padding: 10px;
+}
+
+.weather {
+        align-self: center;
+    }
+}
+
+/*Малые девайсы (<= 635px)*/
+@media (max-width: 649.8px) { 
+
+    /*Делаем шапку и меню вертикальными*/
+
+    header,
+    .nav-bar,
+    .menu {
+        flex-direction: column;  
+    }
+
+    header {
+        justify-content: space-around;
+    }
+
+    .tittle,
+    .header-links {       
+        padding-left: 0;
+    }
+
+    .tittle {
+        font-size: 1.7em;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .header-links {        
+        margin: 0 auto;
+        padding: 15px 0;
+    }
+       
+    .menu,
+    .sub-menu,
+    .menu li,
+    .sub-menu li{
+        width: 100%;
+    }
+
+    .blind {
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .menu li {
+        height: 50px;
+    }
+
+    .header-links {
+        font-size: 1em;        
+        align-self: center;
+    }
+
+    .language {
+        padding-left: 0;
+    }
+    
+    .tittle {
+        font-size: 1.5em
+    }
+
+    .menu li a,
+    .sub-menu li a{
+        font-size: 1.2em; 
+    }
+
+    .search-form {
+        width: 80%;
+        margin-right: 0;
+    } 
+
+    /*Контент в одну колонку*/
+
+    .grid-row {
+        flex-direction: column;
+    }
+
+    .grid-item-right,
+    .grid-item-left {
+        flex-basis: auto;
+        padding: 15px 20px;
+        margin: 0;
+    }
+
+      .row-two {
+        padding: 0;    
+    }
+
+    /*Отключаем карусель*/
+
+    .carousel .arrow {
+        display: none;
+    }
+
+    .gallery {
+        width: 100%;
+        overflow: visible;
+        background: none;       
+    }
+
+    .carousel {
+        padding: 0 0px;   
+    }
+
+    .gallery ul {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;        
+        align-content: center;
+        justify-content: flex-start;        
+    }
+
+    .gallery li {
+        width: 20%;
+        height: auto;
+        margin-right: 15px;
+    }
+
+    .gallery li:first-child {
+        margin-left: 0;   
+    }
+
+    .gallery li:last-child {
+        margin-right: 15px;   
+    }
+
+    .carousel {
+        padding-top: 15px;   
+    }
+   
+    /*Ссылки футера колонкой*/
+
+    footer {
+        flex-direction: column;    
+        height: auto;
+        justify-content: center;
+    }
+
+    footer a {
+        display: flex;
+        align-self: center;
+        padding: 10px;
+    }
+
+    /*Значки блока ссылок по ширине*/
+      .links {
+        justify-content: center;
+    }   
+    
+    .column {
+        width: 100%;
+        align-content: center;       
+    }    
+    
+    .links a img {
+    padding: 10px;
+}
+    
+    /*Значки ссылок откл.*/
+
+    .feedback,
+    .sitemap,
+    .header-links button {
+        display: none;
+    }
+    
+    /*Погода по центру*/
+    .weather {
+        align-self: center;
+    }
+    
+    /*Блок обьявлений*/ 
+     .announce-line {
+     width: 100%;
+     text-indent: 0;
+     padding-left: 5px;
+     line-height: 1.5rem;
+    }
+    
+    .announce-text {
+       text-indent: 0;
+       text-align: justify;
+       width: 100%;
+    }
+    
+    /*Ссылка на почту администратора влево (стр. О сайте))*/
+      .grid-row .grid-item-left p:last-child {
+    text-align: left;
+}
+
+    th {
+      font-size: 0.4rem;
+      line-height: 0.4rem;
+      }
+      
+    td {
+          font-size: 0.4rem;
+          line-height: 0.4rem;
+      }
+
+.license {
+    font-size: 0.8rem;
+}
+}
+
+/*Размер и прокрутка открытого фото карусели при альбомной ориентации устройства:*/ 
+@media screen and (min-width: 500px) and (orientation:landscape) { 
+
+.imgblock {
+min-width: 45%;
+max-height: 95%;
+overflow-y: auto;
+overflow-x: hidden;
+}
+
+.img {
+    max-height: 80%;
+    width: auto;
+}
+}
+
+
+
+  

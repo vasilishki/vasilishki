@@ -262,6 +262,7 @@ iframe {
     position: relative;  
     padding: 0 60px;
     padding-top: 15px;
+    text-align: left;
 }
 
 .carousel img {

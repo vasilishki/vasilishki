@@ -18,9 +18,9 @@
 @media (min-width: 649.8px) and (max-width: 991.98px) {
 
     .tittle {
-	font-size: 1.675rem;
-	padding-left: 45px;
-}
+        font-size: 1.675rem;
+        padding-left: 45px;
+    }
 
     .nav-bar {
         flex-wrap: wrap;    
@@ -48,8 +48,8 @@
     .grid-row {
         flex-direction: column;
     }
-    
-    
+
+
     .grid-item-right,
     .grid-item-left {
         flex-basis: auto;
@@ -61,7 +61,7 @@
         padding: 0;    
     }
     /*Значки блока ссылок по центру*/
-     .grid-item-right p {
+    .grid-item-right p {
         justify-content: space-between;
     }
 
@@ -104,16 +104,16 @@
     .gallery li:last-child {
         margin-right: 15px;   
     }
- 
-.links a img {
-    padding: 10px;
-}
 
-.links a img {
-    padding: 10px;
-}
+    .links a img {
+        padding: 10px;
+    }
 
-.weather {
+    .links a img {
+        padding: 10px;
+    }
+
+    .weather {
         align-self: center;
     }
 }
@@ -148,7 +148,7 @@
         margin: 0 auto;
         padding: 15px 0;
     }
-       
+
     .menu,
     .sub-menu,
     .menu li,
@@ -173,7 +173,7 @@
     .language {
         padding-left: 0;
     }
-    
+
     .tittle {
         font-size: 1.5em
     }
@@ -201,7 +201,7 @@
         margin: 0;
     }
 
-      .row-two {
+    .row-two {
         padding: 0;    
     }
 
@@ -248,7 +248,7 @@
     .carousel {
         padding-top: 15px;   
     }
-   
+
     /*Ссылки футера колонкой*/
 
     footer {
@@ -264,19 +264,19 @@
     }
 
     /*Значки блока ссылок по ширине*/
-      .links {
+    .links {
         justify-content: center;
     }   
-    
+
     .column {
         width: 100%;
         align-content: center;       
     }    
-    
+
     .links a img {
-    padding: 10px;
-}
-    
+        padding: 10px;
+    }
+
     /*Значки ссылок откл.*/
 
     .feedback,
@@ -284,62 +284,57 @@
     .header-links button {
         display: none;
     }
-    
+
     /*Погода по центру*/
     .weather {
         align-self: center;
     }
-    
+
     /*Блок обьявлений*/ 
-     .announce-line {
-     width: 100%;
-     text-indent: 0;
-     padding-left: 5px;
-     line-height: 1.5rem;
+    .announce-line {
+        width: 100%;
+        text-indent: 0;
+        padding-left: 5px;
+        line-height: 1.5rem;
     }
-    
+
     .announce-text {
-       text-indent: 0;
-       text-align: justify;
-       width: 100%;
+        text-indent: 0;
+        text-align: justify;
+        width: 100%;
     }
-    
+
     /*Ссылка на почту администратора влево (стр. О сайте))*/
-      .grid-row .grid-item-left p:last-child {
-    text-align: left;
-}
+    .grid-row .grid-item-left p:last-child {
+        text-align: left;
+    }
 
     th {
-      font-size: 0.4rem;
-      line-height: 0.4rem;
-      }
-      
-    td {
-          font-size: 0.4rem;
-          line-height: 0.4rem;
-      }
+        font-size: 0.4rem;
+        line-height: 0.4rem;
+    }
 
-.license {
-    font-size: 0.8rem;
-}
+    td {
+        font-size: 0.4rem;
+        line-height: 0.4rem;
+    }
+
+    .license {
+        font-size: 0.8rem;
+    }
 }
 
 /*Размер и прокрутка открытого фото карусели при альбомной ориентации устройства:*/ 
 @media screen and (min-width: 500px) and (orientation:landscape) { 
 
-.imgblock {
-min-width: 45%;
-max-height: 95%;
-overflow-y: auto;
-overflow-x: hidden;
-}
+    .imgblock {
+        min-width: 45%;
+        max-height: 95%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
 
-.img {
-    max-height: 80%;
-    width: auto;
-}
 }
 
 
 
-  

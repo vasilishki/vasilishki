@@ -32,7 +32,6 @@ carousel.addEventListener("mousedown", function (event) {
 document.body.addEventListener('click', function (e) {
 
     let clone = e.target.cloneNode(true);
-    let parent = e.target.parentElement;
 
 //если фото уже открыто, то при клике на него - закрыть его
     if (e.target.classList.contains('showimg')) {

@@ -24,7 +24,7 @@ buttonBack.addEventListener("click", goBack);
 //Отображение текущего положения пользователя
 function currentPlace() {
     let myLocation = document.querySelector('.navigation a:last-child');
-    myLocation.textContent = document.title;
+    myLocation.textContent = document.querySelector('.grid-item-left:first-child h2').textContent;
 }
 ;
 document.addEventListener("DOMContentLoaded", currentPlace);

@@ -1,5 +1,5 @@
 let carousel = document.querySelector('.carousel');
-let width = 243; // ширина картинки
+let width = document.querySelector('.gallery li').offsetWidth + 35; // ширина картинки
 let count = 1; // видимое количество изображений
 
 let list = carousel.querySelector('ul');

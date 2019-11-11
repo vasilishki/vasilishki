@@ -284,15 +284,71 @@ iframe {
 
 .arrow {
     position: absolute;
-    top: 105px;
-    padding: 0; 
-    font-size: 3.125rem;
-    line-height: 24px; 
-    display: inline-block;    
-    transform: scale(2, 4.5); 
+    font-size: 3rem;
+    transform: scale(2, 4.5);
+    line-height: 40px;    
+    top: 90px;
     color: #DDBAB8;
     text-shadow: 0 3px 4px rgba(0,0,0,0.5);
     transition: 0.5s ease;
+}
+
+.arrow:focus {
+    outline: none;
+}
+
+.arrow:hover {  
+    cursor: pointer;
+    color: #F5E2E1;
+    outline: none;
+}
+
+.arrow:active {
+    cursor: pointer;
+    color: #FDF9F9;
+    outline: none;
+}
+
+.prev {
+    left: 2px;
+}
+
+.next {
+    right: 2px;
+}
+
+.gallery {
+    max-width: 900px;
+    overflow: hidden;
+    background: #F5E2E1;
+    margin: 0;  
+}
+
+.gallery ul {
+    height: 160px;
+    max-width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: margin-left 250ms;
+    font-size: 0;
+}
+
+.gallery li {
+    width: 200px;
+    height: 145px;
+    display: inline-block;
+    margin: 5px 0;
+    margin-right: 35px;
+    text-align: center;
+}
+
+.gallery li:first-child {
+    margin-left: 60px;   
+}
+
+.gallery li:last-child {
+    margin-right: 60px;   
 }
 
 /*Стили блока картинки карусели при их открытии*/
@@ -361,64 +417,6 @@ li .showimg:hover {
     width: 100%;
     height: auto;
     white-space: pre-line;
-}
-
-.arrow:focus {
-    outline: none;
-}
-
-.arrow:hover {  
-    cursor: pointer;
-    color: #F5E2E1;
-    outline: none;
-}
-
-.arrow:active {
-    cursor: pointer;
-    color: #FDF9F9;
-    outline: none;
-}
-
-.prev {
-    left: 2px;
-}
-
-.next {
-    right: 2px;
-}
-
-.gallery {
-    max-width: 900px;
-    overflow: hidden;
-    background: #F5E2E1;
-    margin: 0;  
-}
-
-.gallery ul {
-    height: 160px;
-    max-width: 9999px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    transition: margin-left 250ms;
-    font-size: 0;
-}
-
-.gallery li {
-    width: 200px;
-    height: 145px;
-    display: inline-block;
-    margin: 5px 0;
-    margin-right: 35px;
-    text-align: center;
-}
-
-.gallery li:first-child {
-    margin-left: 60px;   
-}
-
-.gallery li:last-child {
-    margin-right: 60px;   
 }
 
 /*Блок ссылок*/
